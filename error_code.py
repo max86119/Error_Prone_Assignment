@@ -2,7 +2,7 @@
 # Use what you know about Python to fix them
 
 import random
-from error_code_function import combat, createMonster  
+from error_code_function import combat, create_monster  
 
 char_name = input("Please enter a character name:\n")
 char_class = 0
@@ -87,7 +87,7 @@ while True:
                 print("\nThe fight drags on... neither side can land a clean hit.")
                 print("You break away and retreat before this becomes your whole personality.")
         elif monster["health"] > 0:
-            print(f"You were slain by the {monster["name"]}!") 
+            print(f"You were slain by the {monster[char]}!") 
             print("Your vision fades. The dungeon claims another hero.")
             break
         else:
